@@ -6,7 +6,7 @@ const newDate = new Date();
 // Count days between two dates
 const dateDiff = Math.abs(newDate.getTime() - oldDate.getTime());
 const days = Math.ceil(dateDiff / (1000 * 3600 * 24));
-document.querySelector(".days").innerHTML = days + " days";
+document.querySelector(".days").innerHTML = days + " Ngày";
 
 setInterval(() => {
   // Count seconds between two dates
@@ -15,5 +15,5 @@ setInterval(() => {
   const secondDiff = Math.abs(sOldDate.getTime() - sNewDate.getTime());
   const seconds = Math.ceil(secondDiff / 1000);
   // seconds
-  document.querySelector(".seconds").innerHTML = seconds + " seconds";
+  document.querySelector(".seconds").innerHTML = seconds + " giây xa bạn D";
 }, 1000);
