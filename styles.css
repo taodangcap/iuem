@@ -1,0 +1,17 @@
+.heart svg {
+  width: 100%;
+}
+
+.name-wrap {
+  background: #ffe4e9;
+  /*   background:url(https://cdn.pixabay.com/photo/2015/10/16/19/18/balloon-991680__340.jpg) no-repeat center;background-size:cover; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.names {
+  flex: 1;
+}
