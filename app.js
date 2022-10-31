@@ -15,5 +15,5 @@ setInterval(() => {
   const secondDiff = Math.abs(sOldDate.getTime() - sNewDate.getTime());
   const seconds = Math.ceil(secondDiff / 1000);
   // seconds
-  document.querySelector(".seconds").innerHTML = seconds + " giây xa bạn D";
+  document.querySelector(".seconds").innerHTML = seconds + " giây xa bạn đó nè";
 }, 1000);
